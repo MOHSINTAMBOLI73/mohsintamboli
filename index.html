@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Mohsin Sikandar Tamboli | Video Editor & Web Designer</title>
+	<meta name="description"
+		content="Mohsin Sikandar Tamboli – Professional Video Editor & Web Designer. Premium video editing, modern website design, and digital creative services." />
+	<meta name="keywords"
+		content="video editor, web designer, freelance video editor, portfolio website designer, video editing services India" />
+	<meta name="author" content="Mohsin Sikandar Tamboli" />
+
+	<!-- Open Graph / Social SEO -->
+	<meta property="og:title" content="Mohsin Sikandar Tamboli Portfolio" />
+	<meta property="og:description" content="Professional Video Editor & Web Designer Portfolio" />
+	<meta property="og:type" content="website" />
+
+	<!-- Structured Data SEO -->
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "Person",
+	"name": "Mohsin Sikandar Tamboli",
+	"jobTitle": "Video Editor & Web Designer",
+	}
+</script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+	<style>
+		:root {
+			--bg: #070b14;
+			--card: #111827;
+			--accent: #6366f1;
+			--text: #e5e7eb;
+		}
+
+		body {
+			margin: 0;
+			font-family: Poppins, system-ui, sans-serif;
+			background: var(--bg);
+			color: var(--text);
+			-webkit-font-smoothing: antialiased;
+		}
+
+		header {
+			min-height: 85vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			padding: 40px 20px;
+			background: radial-gradient(circle at top, #0f172a, black);
+		}
+
+		h1 {
+			font-size: clamp(36px, 5vw, 60px);
+			margin: 0;
+			font-weight: 700;
+			letter-spacing: .5px;
+		}
+
+		header p {
+			opacity: .8;
+			font-size: 18px;
+			margin-top: 15px;
+		}
+
+		.cta {
+			margin-top: 30px;
+			padding: 14px 30px;
+			border-radius: 30px;
+			background: var(--accent);
+			text-decoration: none;
+			color: white;
+			font-weight: 600;
+			transition: .3s;
+		}
+
+		.cta:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 10px 25px rgba(99, 102, 241, .4);
+		}
+
+		section {
+			max-width: 1150px;
+			margin: auto;
+			padding: 80px 20px;
+		}
+
+		h2 {
+			text-align: center;
+			font-size: 34px;
+			margin-bottom: 50px;
+		}
+
+		.projects,
+		.video-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+			gap: 25px;
+		}
+
+		.card,
+		.video-link {
+			background: var(--card);
+			padding: 26px;
+			border-radius: 20px;
+			text-decoration: none;
+			color: white;
+			transition: .35s cubic-bezier(.4, 0, .2, 1);
+			border: 1px solid rgba(255, 255, 255, .05);
+		}
+
+		.card:hover,
+		.video-link:hover {
+			transform: translateY(-8px);
+			background: #1f2937;
+			box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
+		}
+
+		footer {
+			text-align: center;
+			padding: 50px 20px;
+			font-size: 14px;
+			opacity: .6;
+		}
+
+		/* Smooth reveal animation */
+		.reveal {
+			opacity: 0;
+			transform: translateY(40px);
+			transition: 1s
+		}
+
+		.reveal.active {
+			opacity: 1;
+			transform: none
+		}
+
+		@media(max-width:700px) {
+			section {
+				padding: 60px 20px
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<h1>Mohsin Sikandar Tamboli</h1>
+		<p>Professional Video Editor & Web Designer</p>
+		<a href="#projects" class="cta">View My Work</a>
+	</header>
+
+	<section id="projects" class="reveal">
+		<h2>Web Design Projects</h2>
+		<div class="projects">
+			<a class="card" href="https://trueview.co.in/" target="_blank">TrueView Website</a>
+			<a class="card" href="https://wizardly-babbage-c45c80.netlify.app/" target="_blank">Portfolio Project</a>
+			<a class="card" href="https://thirsty-jang-511daa.netlify.app/" target="_blank">Landing Page Project</a>
+			<a class="card" href="https://wonderful-chandrasekhar-dc9a9a.netlify.app/" target="_blank">UI Design
+				Project</a>
+		</div>
+	</section>
+
+	<section class="reveal">
+		<h2>Video Portfolio</h2>
+		<div class="video-grid">
+			<a class="video-link" href="https://www.youtube.com/watch?v=by_MYFxN5DI" target="_blank">Youtube Video
+				Project 1</a>
+			<a class="video-link" href="https://www.youtube.com/watch?v=JZGDxuYTEBk" target="_blank">Youtube Video
+				Project 2</a>
+			<a class="video-link" href="https://www.youtube.com/watch?v=p1abQXpqsBw" target="_blank">Youtube Video
+				Project 3</a>
+			<a class="video-link" href="https://www.youtube.com/watch?v=HjlnkD5P3LA" target="_blank">Youtube Video
+				Project 4</a>
+			<a class="video-link" href="https://www.amazon.in/vdp/1f71ac215e62495f9e572e4d7e4e5d9e"
+				target="_blank">Amazon Video Project 1</a>
+			<a class="video-link" href="https://www.amazon.in/vdp/126375ade40d45c597df445a19678d92"
+				target="_blank">Amazon Video Project 2</a>
+			<a class="video-link" href="https://www.amazon.in/vdp/106adb5a3d5f45f4b506a8f3196691bf"
+				target="_blank">Amazon Video Project 3</a>
+			<a class="video-link" href="https://www.instagram.com/reel/DFknqrLyoWK/" target="_blank">Instagram Reel</a>
+			<a class="video-link" href="https://www.facebook.com/share/v/1Evit7w1gW/" target="_blank">Facebook Video</a>
+		</div>
+	</section>
+
+	<section class="reveal">
+		<h2>About Me</h2>
+		<p style="text-align:center;max-width:750px;margin:auto;opacity:.85;font-size:18px">
+			I’m Mohsin Sikandar Tamboli — a professional video editor and web designer
+			creating cinematic video content and modern high-performance websites. I focus
+			on premium visual storytelling, clean design, speed optimization, and strong
+			brand impact.
+		</p>
+	</section>
+
+	<footer>
+		© 2026 Mohsin Sikandar Tamboli — All Rights Reserved
+	</footer>
+
+	<script>
+		// Scroll reveal animation
+		const reveals = document.querySelectorAll('.reveal');
+		window.addEventListener('scroll', () => {
+			reveals.forEach(el => {
+				const top = el.getBoundingClientRect().top;
+				if (top < window.innerHeight - 100) el.classList.add('active');
+			});
+		});
+	</script>
+
+</body>
+
+</html>
