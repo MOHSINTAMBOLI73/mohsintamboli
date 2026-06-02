@@ -2,219 +2,214 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mohsin Sikandar Tamboli | Video Editor & Web Designer</title>
 	<meta name="description"
-		content="Mohsin Sikandar Tamboli – Professional Video Editor & Web Designer. Premium video editing, modern website design, and digital creative services." />
+		content="Cinematic personal portfolio of Mohsin Sikandar Tamboli – Professional Video Editor & Web Designer. Premium video editing, modern website design, and digital creative services.">
 	<meta name="keywords"
-		content="video editor, web designer, freelance video editor, portfolio website designer, video editing services India" />
-	<meta name="author" content="Mohsin Sikandar Tamboli" />
+		content="video editor, web designer, freelance video editor, portfolio website designer, video editing services India">
+	<meta name="author" content="Mohsin Sikandar Tamboli">
 
 	<!-- Open Graph / Social SEO -->
-	<meta property="og:title" content="Mohsin Sikandar Tamboli Portfolio" />
-	<meta property="og:description" content="Professional Video Editor & Web Designer Portfolio" />
-	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Mohsin Sikandar Tamboli Portfolio">
+	<meta property="og:description" content="Professional Video Editor & Web Designer Portfolio">
+	<meta property="og:type" content="website">
+	<meta property="og:image"
+		content="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&q=80&w=800">
+	<meta property="og:url" content="https://mohsintamboli.com">
 
-	<!-- Structured Data SEO -->
+	<!-- Structured Data (valid JSON) -->
 	<script type="application/ld+json">
-	{
-	"@context": "https://schema.org",
-	"@type": "Person",
-	"name": "Mohsin Sikandar Tamboli",
-	"jobTitle": "Video Editor & Web Designer",
-	}
-</script>
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mohsin Sikandar Tamboli",
+      "jobTitle": "Video Editor & Web Designer",
+      "url": "https://mohsintamboli.com",
+      "sameAs": [
+        "https://instagram.com/mohsintamboli",
+        "https://behance.net/mohsintamboli",
+        "https://youtube.com/@mohsintamboli"
+      ]
+    }
+  </script>
 
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-	<style>
-		:root {
-			--bg: #070b14;
-			--card: #111827;
-			--accent: #6366f1;
-			--text: #e5e7eb;
-		}
-
-		body {
-			margin: 0;
-			font-family: Poppins, system-ui, sans-serif;
-			background: var(--bg);
-			color: var(--text);
-			-webkit-font-smoothing: antialiased;
-		}
-
-		header {
-			min-height: 85vh;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			padding: 40px 20px;
-			background: radial-gradient(circle at top, #0f172a, black);
-		}
-
-		h1 {
-			font-size: clamp(36px, 5vw, 60px);
-			margin: 0;
-			font-weight: 700;
-			letter-spacing: .5px;
-		}
-
-		header p {
-			opacity: .8;
-			font-size: 18px;
-			margin-top: 15px;
-		}
-
-		.cta {
-			margin-top: 30px;
-			padding: 14px 30px;
-			border-radius: 30px;
-			background: var(--accent);
-			text-decoration: none;
-			color: white;
-			font-weight: 600;
-			transition: .3s;
-		}
-
-		.cta:hover {
-			transform: translateY(-3px);
-			box-shadow: 0 10px 25px rgba(99, 102, 241, .4);
-		}
-
-		section {
-			max-width: 1150px;
-			margin: auto;
-			padding: 80px 20px;
-		}
-
-		h2 {
-			text-align: center;
-			font-size: 34px;
-			margin-bottom: 50px;
-		}
-
-		.projects,
-		.video-grid {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-			gap: 25px;
-		}
-
-		.card,
-		.video-link {
-			background: var(--card);
-			padding: 26px;
-			border-radius: 20px;
-			text-decoration: none;
-			color: white;
-			transition: .35s cubic-bezier(.4, 0, .2, 1);
-			border: 1px solid rgba(255, 255, 255, .05);
-		}
-
-		.card:hover,
-		.video-link:hover {
-			transform: translateY(-8px);
-			background: #1f2937;
-			box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
-		}
-
-		footer {
-			text-align: center;
-			padding: 50px 20px;
-			font-size: 14px;
-			opacity: .6;
-		}
-
-		/* Smooth reveal animation */
-		.reveal {
-			opacity: 0;
-			transform: translateY(40px);
-			transition: 1s
-		}
-
-		.reveal.active {
-			opacity: 1;
-			transform: none
-		}
-
-		@media(max-width:700px) {
-			section {
-				padding: 60px 20px
-			}
-		}
-	</style>
+	<!-- Preconnect for fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+	<div class="cursor" aria-hidden="true"></div>
+	<div class="cursor-follower" aria-hidden="true"></div>
 
-	<header>
-		<h1>Mohsin Sikandar Tamboli</h1>
-		<p>Professional Video Editor & Web Designer</p>
-		<a href="#projects" class="cta">View My Work</a>
+	<!-- Loader -->
+	<div class="loader" role="status" aria-label="Loading">
+		<h1 class="loader-logo" data-text="MT">MT</h1>
+		<div class="loader-progress" aria-live="polite">0%</div>
+	</div>
+
+	<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+	<header class="navbar">
+		<a href="#" class="nav-logo magnetic" aria-label="Mohsin Tamboli home">MT.</a>
+		<nav class="nav-links" aria-label="Main navigation">
+			<a href="#work" class="magnetic">Work</a>
+			<a href="#about" class="magnetic">About</a>
+			<a href="#contact" class="magnetic">Contact</a>
+		</nav>
 	</header>
 
-	<section id="projects" class="reveal">
-		<h2>Web Design Projects</h2>
-		<div class="projects">
-			<a class="card" href="https://trueview.co.in/" target="_blank">TrueView Website</a>
-			<a class="card" href="https://wizardly-babbage-c45c80.netlify.app/" target="_blank">Portfolio Project</a>
-			<a class="card" href="https://thirsty-jang-511daa.netlify.app/" target="_blank">Landing Page Project</a>
-			<a class="card" href="https://wonderful-chandrasekhar-dc9a9a.netlify.app/" target="_blank">UI Design
-				Project</a>
+	<main id="smooth-wrapper">
+		<!-- Hero -->
+		<section id="hero" class="hero section">
+			<div class="hero-content">
+				<h1 class="hero-title">Crafting Visual Stories<br>Through Motion & Design</h1>
+				<p class="hero-subtitle">Video Editor • Motion Designer • Web Designer</p>
+				<div class="hero-cta">
+					<a href="#work" class="btn btn-primary magnetic">View Work</a>
+					<a href="#contact" class="btn btn-secondary magnetic">Contact Me</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="about" class="about section">
+			<div class="split-layout">
+				<div class="about-image reveal-up">
+					<img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&q=80&w=800"
+						alt="Portrait of Mohsin Tamboli" loading="lazy" width="800" height="800">
+				</div>
+				<div class="about-text reveal-up">
+					<h2>Hi, I'm Mohsin Sikandar Tamboli.</h2>
+					<p>Professional Video Editor & Web Designer. I blend cinematic storytelling with cutting-edge web
+						design to create immersive digital experiences. With a deep passion for motion and aesthetics, I
+						transform ideas into visual realities.</p>
+					<div class="stats">
+						<div class="stat-item">
+							<h3 class="counter" data-target="4">0</h3>
+							<span>Years Experience</span>
+						</div>
+						<div class="stat-item">
+							<h3 class="counter" data-target="30">0</h3>
+							<span>Projects Completed</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section id="skills" class="skills section">
+			<h2 class="section-title reveal-up">Tech Arsenal</h2>
+			<div class="skills-grid">
+				<div class="skill-card reveal-up">
+					<h3>Video & Motion</h3>
+					<ul>
+						<li><i class="fa-solid fa-film"></i> Premiere Pro</li>
+						<li><i class="fa-solid fa-layer-group"></i> After Effects</li>
+						<li><i class="fa-solid fa-cube"></i> Blender</li>
+					</ul>
+				</div>
+				<div class="skill-card reveal-up" style="transition-delay: 0.1s;">
+					<h3>Design & Web</h3>
+					<ul>
+						<li><i class="fa-brands fa-figma"></i> Figma & UI/UX</li>
+						<li><i class="fa-brands fa-html5"></i> HTML / CSS / JS</li>
+						<li><i class="fa-brands fa-react"></i> React / GSAP</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="work" class="work section">
+			<h2 class="section-title reveal-up">Selected Work</h2>
+			<div id="portfolio-sections">
+				<!-- VFX and Web sections will be built here -->
+			</div>
+		</section>
+
+		<!-- Modal for video -->
+		<div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-label="Project video">
+			<button class="modal-close magnetic" aria-label="Close video">&times;</button>
+			<div class="modal-content glass">
+				<div class="modal-video-wrapper"></div>
+				<div class="modal-info">
+					<h2 id="modal-title">Project Title</h2>
+					<span id="modal-category">Category</span>
+					<p id="modal-desc">Project details go here...</p>
+				</div>
+			</div>
 		</div>
-	</section>
 
-	<section class="reveal">
-		<h2>Video Portfolio</h2>
-		<div class="video-grid">
-			<a class="video-link" href="https://www.youtube.com/watch?v=by_MYFxN5DI" target="_blank">Youtube Video
-				Project 1</a>
-			<a class="video-link" href="https://www.youtube.com/watch?v=JZGDxuYTEBk" target="_blank">Youtube Video
-				Project 2</a>
-			<a class="video-link" href="https://www.youtube.com/watch?v=p1abQXpqsBw" target="_blank">Youtube Video
-				Project 3</a>
-			<a class="video-link" href="https://www.youtube.com/watch?v=HjlnkD5P3LA" target="_blank">Youtube Video
-				Project 4</a>
-			<a class="video-link" href="https://www.amazon.in/vdp/1f71ac215e62495f9e572e4d7e4e5d9e"
-				target="_blank">Amazon Video Project 1</a>
-			<a class="video-link" href="https://www.amazon.in/vdp/126375ade40d45c597df445a19678d92"
-				target="_blank">Amazon Video Project 2</a>
-			<a class="video-link" href="https://www.amazon.in/vdp/106adb5a3d5f45f4b506a8f3196691bf"
-				target="_blank">Amazon Video Project 3</a>
-			<a class="video-link" href="https://www.instagram.com/reel/DFknqrLyoWK/" target="_blank">Instagram Reel</a>
-			<a class="video-link" href="https://www.facebook.com/share/v/1Evit7w1gW/" target="_blank">Facebook Video</a>
-		</div>
-	</section>
+		<!-- Process -->
+		<section id="process" class="process section">
+			<h2 class="section-title reveal-up">My Workflow</h2>
+			<div class="timeline">
+				<div class="timeline-item reveal-up">
+					<h3>01. Discovery</h3>
+					<p>Understanding the brand, audience, and creative goals.</p>
+				</div>
+				<div class="timeline-item reveal-up">
+					<h3>02. Concept & Storyboard</h3>
+					<p>Drafting the narrative flow and visual direction.</p>
+				</div>
+				<div class="timeline-item reveal-up">
+					<h3>03. Editing & Design</h3>
+					<p>Executing the vision with precision and style.</p>
+				</div>
+				<div class="timeline-item reveal-up">
+					<h3>04. Delivery</h3>
+					<p>Final polish, optimization, and launch.</p>
+				</div>
+			</div>
+		</section>
 
-	<section class="reveal">
-		<h2>About Me</h2>
-		<p style="text-align:center;max-width:750px;margin:auto;opacity:.85;font-size:18px">
-			I’m Mohsin Sikandar Tamboli — a professional video editor and web designer
-			creating cinematic video content and modern high-performance websites. I focus
-			on premium visual storytelling, clean design, speed optimization, and strong
-			brand impact.
-		</p>
-	</section>
+		<!-- Contact -->
+		<section id="contact" class="contact section">
+			<div class="contact-panel glass reveal-up">
+				<h2>Let's create together.</h2>
+				<form class="contact-form" name="contact" method="POST" data-netlify="true" netlify>
+					<!-- Hidden input for Netlify’s bot protection (keep it exactly like this) -->
+					<input type="hidden" name="form-name" value="contact">
 
-	<footer>
-		© 2026 Mohsin Sikandar Tamboli — All Rights Reserved
-	</footer>
+					<label for="name" class="sr-only">Name</label>
+					<input type="text" id="name" name="name" placeholder="Name" required autocomplete="name">
 
-	<script>
-		// Scroll reveal animation
-		const reveals = document.querySelectorAll('.reveal');
-		window.addEventListener('scroll', () => {
-			reveals.forEach(el => {
-				const top = el.getBoundingClientRect().top;
-				if (top < window.innerHeight - 100) el.classList.add('active');
-			});
-		});
-	</script>
+					<label for="email" class="sr-only">Email</label>
+					<input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
 
+					<label for="message" class="sr-only">Message</label>
+					<textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+
+					<button type="submit" class="btn btn-primary magnetic">Send Message</button>
+				</form>
+				<div class="social-links">
+					<a href="https://www.instagram.com/MOHSINTAMBOLI73" target="_blank" rel="noopener noreferrer"
+						aria-label="Instagram">
+						<i class="fa-brands fa-instagram"></i> Instagram
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer-logo">MT.</div>
+			<p>&copy; 2026 Mohsin Sikandar Tamboli — All Rights Reserved.</p>
+			<button id="back-to-top" class="magnetic" aria-label="Back to top">↑ Top</button>
+		</footer>
+	</main>
+
+	<!-- Scripts – all deferred, combined where possible -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js" defer></script>
+	<script src="script.js" defer></script>
 </body>
 
 </html>

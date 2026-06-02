@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Cyberpunk VFX Short",
+        "category": "VFX",
+        "desc": "A futuristic VFX piece blending 3D environments with live-action footage. Kept fast-paced and highly stylized.",
+        "type": "youtube",
+        "videoId": "NPi7eCC6kY8",
+        "section": "vfx"
+    },
+    {
+        "title": "Agency Website",
+        "category": "Web Design",
+        "desc": "A high-end web layout crafted using modern front-end tech stacks, micro-interactions, and 3D web features.",
+        "type": "website",
+        "url": "https://wizardly-babbage-c45c80.netlify.app/",
+        "section": "web",
+        "thumbnail": "/Screenshot/screenshot wizardly-babbage.png"
+    },
+    {
+        "title": "Cyberpunk VFX Short",
+        "category": "VFX",
+        "desc": "A futuristic VFX piece blending 3D environments with live-action footage. Kept fast-paced and highly stylized.",
+        "type": "youtube",
+        "videoId": "HnAqyTfPO-E",
+        "section": "vfx"
+    },
+    {
+        "title": "Agency Website",
+        "category": "Web Design",
+        "desc": "A high-end web layout crafted using modern front-end tech stacks, micro-interactions, and 3D web features.",
+        "type": "website",
+        "url": "https://thirsty-jang-511daa.netlify.app/",
+        "section": "web",
+        "thumbnail": "/Screenshot/screenshot thirsty-jang-511daa.png"
+    },
+    {
+        "title": "Cyberpunk VFX Short",
+        "category": "3d Animation",
+        "desc": "A futuristic VFX piece blending 3D environments with live-action footage. Kept fast-paced and highly stylized.",
+        "type": "youtube",
+        "videoId": "xWboXnYma2k",
+        "section": "3d-animation"
+    },
+    {
+        "title": "Agency Website",
+        "category": "Web Design",
+        "desc": "A high-end web layout crafted using modern front-end tech stacks, micro-interactions, and 3D web features.",
+        "type": "website",
+        "url": "https://wonderful-chandrasekhar-dc9a9a.netlify.app/",
+        "section": "web",
+        "thumbnail": "/Screenshot/screenshot wonderful-chandrasekhar-dc9a9a.png"
+    },
+    {
+        "title": "Cyberpunk VFX Short",
+        "category": "3d Animation",
+        "desc": "A futuristic VFX piece blending 3D environments with live-action footage. Kept fast-paced and highly stylized.",
+        "type": "youtube",
+        "videoId": "SpEvlvaynp4",
+        "section": "3d-animation"
+    },
+    {
+        "title": "Cyberpunk VFX Short",
+        "category": "VFX",
+        "desc": "A futuristic VFX piece blending 3D environments with live-action footage. Kept fast-paced and highly stylized.",
+        "type": "youtube",
+        "videoId": "TB8IUXOZWIs",
+        "section": "vfx"
+    },
+    {
+        "title": "Cyberpunk VFX Short",
+        "category": "VFX",
+        "desc": "A futuristic VFX piece blending 3D environments with live-action footage. Kept fast-paced and highly stylized.",
+        "type": "youtube",
+        "videoId": "aFbs3tjoggs",
+        "section": "vfx"
+    }
+]
