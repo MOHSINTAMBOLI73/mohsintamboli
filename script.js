@@ -319,7 +319,7 @@ async function buildPortfolioSections(groups) {
 
         const hasVfx = projects.some(p => p.section === 'vfx');
         if (hasVfx) {
-            const moreCard = createMoreCard('https://www.youtube.com/channel/UCg7nQprQv4Chz2oYC4p7-rQ', '🎬 More Work on YouTube');
+            const moreCard = createMoreCard('https://www.youtube.com/channel/UCZqEDUuUmNwIZoDPPMB_TgA', '🎬 More Work on YouTube');
             grid.appendChild(moreCard);
         }
 
